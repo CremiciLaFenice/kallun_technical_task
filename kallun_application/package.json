@@ -1,0 +1,24 @@
+{
+  "name": "kallun_application",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sendbird/chat": "^4.10.6",
+    "@sendbird/uikit-react": "^3.9.2",
+    "css-vars-ponyfill": "^2.3.2",
+    "date-fns": "^2.16.1",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}
